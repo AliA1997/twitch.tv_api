@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
+header {
+  font-family: impact;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 5px;
+  height: 200px;
+  background-color: #ead8af;
+  border: 3px solid black;
+}
+.circle {
+  height: 10px;
+  background-color: red;
+  width: 10px;
+  border-radius: 100%;
+  border: 1px solid black;
+  margin-top: 5px;
+  margin-right: 5px;
+  float: center;
+}
+.cell {
+  background-color: black;
+  height: 100%;
+  width: 15px;
+  float: left;
+}
+
+.tab {
+  display: inline;
+  height: 20px;
+  color: black;
+  width: 100%;
+  border-bottom: 1px solid black;
+  float: left;
+}
+#list-div {
+  font-family: roboto;
+  font-weight: bold;
+  width: 100%;
+  background-color: #f7f4de;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+#results {
+  margin-left: -20px;
+   list-style: none;
+}
+#results li {
+    margin-left: -15px;
+    width: 100%;
+    height: 75px;
+    border-bottom: 2px solid black;
+    border-bottom-width: 100%;
+}
+#results li img {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+}
+#results li:nth-child(2n + 1) {
+  background-color: #f1e6c9;
+}
+#status-circle {
+  float: left;
+  background-color: green;
+}
+#tabs {
+  float: right;
+  background-color: #ead8af;
+}
+#title {
+  border-bottom: 2px solid black;
+}
